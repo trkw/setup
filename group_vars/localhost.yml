@@ -10,7 +10,6 @@ homebrew_cask_packages:
   - name: google-chrome
   - name: google-cloud-sdk
   - name: google-japanese-ime
-  - name: visual-studio-code
 homebrew_packages:
   - name: ansible
   - name: tig
