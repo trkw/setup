@@ -1,0 +1,24 @@
+homebrew_taps:
+  - homebrew/bundle
+  - homebrew/cask
+  - homebrew/core
+homebrew_cask_packages:
+  - name: alfred
+  - name: appcleaner
+  - name: discord
+  - name: docker
+  - name: google-chrome
+  - name: google-cloud-sdk
+  - name: google-japanese-ime
+  - name: visual-studio-code
+homebrew_packages:
+  - name: ansible
+  - name: tig
+  - name: tmux
+  - name: vim
+  - name: wget
+dot_files:
+  - name: zshrc
+  - name: vimrc
+  - name: tmux.conf
+  - name: gitconfig

@@ -1,0 +1,16 @@
+- block:
+    - name: checkout dotfiles
+      git:
+        repo: https://github.com/trkw/dotfiles.git
+        dest: ~/.config/dotfiles
+
+    - name: create symlinks
+      file:
+        src: ~/.config/dotfiles/{{ item.name }}
+        dest: ~/.{{ item.name }}
+        state: link
+        force: yes
+      with_items: "{{ dot_files }}"
+
+  tags:
+    - dotfiles
