@@ -11,6 +11,7 @@ homebrew_cask_packages:
   - name: google-chrome
   - name: google-cloud-sdk
   - name: google-japanese-ime
+  - name: synergy
   - name: visual-studio-code
 homebrew_packages:
   - name: ansible
