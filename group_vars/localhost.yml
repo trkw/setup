@@ -6,6 +6,7 @@ homebrew_cask_packages:
   - name: 1password
   - name: alfred
   - name: appcleaner
+  - name: barrier
   - name: discord
   - name: docker
   - name: google-chrome
