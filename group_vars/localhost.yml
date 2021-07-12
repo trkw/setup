@@ -16,6 +16,7 @@ homebrew_cask_packages:
   - name: visual-studio-code
 homebrew_packages:
   - name: ansible
+  - name: nkf
   - name: tig
   - name: tmux
   - name: vim
