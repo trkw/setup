@@ -2,8 +2,10 @@ homebrew_taps:
   - homebrew/bundle
   - homebrew/cask
   - homebrew/core
+  - homebrew/cask-drivers
 homebrew_cask_packages:
   - name: 1password
+  - name: abyssoft-teleport
   - name: alfred
   - name: appcleaner
   - name: barrier
@@ -12,6 +14,7 @@ homebrew_cask_packages:
   - name: google-chrome
   - name: google-cloud-sdk
   - name: google-japanese-ime
+  - name: logitech-g-hub
   - name: synergy
   - name: visual-studio-code
 homebrew_packages:
