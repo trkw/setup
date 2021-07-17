@@ -5,7 +5,6 @@ homebrew_taps:
   - homebrew/cask-drivers
 homebrew_cask_packages:
   - name: 1password
-  - name: abyssoft-teleport
   - name: alfred
   - name: appcleaner
   - name: barrier
@@ -15,6 +14,9 @@ homebrew_cask_packages:
   - name: google-cloud-sdk
   - name: google-japanese-ime
   - name: logitech-g-hub
+  - name: loopback
+  - name: paw
+  - name: scroll-reverser
   - name: synergy
   - name: visual-studio-code
 homebrew_packages:
